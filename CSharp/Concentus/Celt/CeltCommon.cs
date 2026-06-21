@@ -33,13 +33,13 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Celt
+namespace ConcentusUnity.Celt
 {
-    using Concentus.Celt.Enums;
-    using Concentus.Celt.Structs;
-    using Concentus.Common;
-    using Concentus.Common.CPlusPlus;
-    using Concentus.Enums;
+    using ConcentusUnity.Celt.Enums;
+    using ConcentusUnity.Celt.Structs;
+    using ConcentusUnity.Common;
+    using ConcentusUnity.Common.CPlusPlus;
+    using ConcentusUnity.Enums;
     using System;
     using System.Diagnostics;
 

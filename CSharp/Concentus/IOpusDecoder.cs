@@ -29,10 +29,10 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Enums;
+using ConcentusUnity.Enums;
 using System;
 
-namespace Concentus
+namespace ConcentusUnity
 {
     /// <summary>
     /// The Opus decoder structure.

@@ -33,7 +33,7 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Enums
+namespace ConcentusUnity.Enums
 {
     /// <summary>
     /// These are the actual Encoder CTL ID numbers.

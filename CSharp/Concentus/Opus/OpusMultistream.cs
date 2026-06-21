@@ -33,14 +33,14 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Structs;
+using ConcentusUnity.Structs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 
-namespace Concentus
+namespace ConcentusUnity
 {
     internal static class OpusMultistream
     {

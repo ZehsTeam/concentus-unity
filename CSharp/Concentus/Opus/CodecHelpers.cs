@@ -33,18 +33,18 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Celt;
-using Concentus.Celt.Structs;
-using Concentus.Common;
-using Concentus.Common.CPlusPlus;
-using Concentus;
-using Concentus.Enums;
-using Concentus.Silk;
-using Concentus.Silk.Structs;
-using Concentus.Structs;
+using ConcentusUnity.Celt;
+using ConcentusUnity.Celt.Structs;
+using ConcentusUnity.Common;
+using ConcentusUnity.Common.CPlusPlus;
+using ConcentusUnity;
+using ConcentusUnity.Enums;
+using ConcentusUnity.Silk;
+using ConcentusUnity.Silk.Structs;
+using ConcentusUnity.Structs;
 using System;
 
-namespace Concentus
+namespace ConcentusUnity
 {
     internal static class CodecHelpers
     {

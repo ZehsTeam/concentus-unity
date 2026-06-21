@@ -3,10 +3,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.IO;
 using ParityTest;
-using Concentus.Enums;
+using ConcentusUnity.Enums;
 using System.Linq;
 using System.Runtime.InteropServices;
-using Concentus.Structs;
+using ConcentusUnity.Structs;
 
 namespace UnitTests
 {
@@ -60,12 +60,12 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
                 Bitrate = 12,
                 Channels = 2,
                 Complexity = 10,
                 ConstrainedVBR = false,
-                ForceMode = Concentus.Enums.OpusMode.MODE_SILK_ONLY,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_SILK_ONLY,
                 FrameSize = 10,
                 PacketLossPercent = 0,
                 SampleRate = 16000,
@@ -79,12 +79,12 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
                 Bitrate = 64,
                 Channels = 2,
                 Complexity = 10,
                 ConstrainedVBR = false,
-                ForceMode = Concentus.Enums.OpusMode.MODE_CELT_ONLY,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_CELT_ONLY,
                 FrameSize = 20,
                 PacketLossPercent = 0,
                 SampleRate = 48000,
@@ -98,12 +98,12 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
                 Bitrate = -1,
                 Channels = 2,
                 Complexity = 10,
                 ConstrainedVBR = true,
-                ForceMode = Concentus.Enums.OpusMode.MODE_CELT_ONLY,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_CELT_ONLY,
                 FrameSize = 20,
                 PacketLossPercent = 0,
                 SampleRate = 48000,
@@ -117,12 +117,12 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
                 Bitrate = -1,
                 Channels = 2,
                 Complexity = 10,
                 ConstrainedVBR = false,
-                ForceMode = Concentus.Enums.OpusMode.MODE_AUTO,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_AUTO,
                 FrameSize = 20,
                 PacketLossPercent = 0,
                 SampleRate = 48000,
@@ -136,12 +136,12 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_RESTRICTED_LOWDELAY,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_RESTRICTED_LOWDELAY,
                 Bitrate = 64,
                 Channels = 2,
                 Complexity = 10,
                 ConstrainedVBR = false,
-                ForceMode = Concentus.Enums.OpusMode.MODE_CELT_ONLY,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_CELT_ONLY,
                 FrameSize = 2.5,
                 PacketLossPercent = 0,
                 SampleRate = 12000,
@@ -155,12 +155,12 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
                 Bitrate = 30,
                 Channels = 2,
                 Complexity = 0,
                 ConstrainedVBR = false,
-                ForceMode = Concentus.Enums.OpusMode.MODE_SILK_ONLY,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_SILK_ONLY,
                 FrameSize = 20,
                 PacketLossPercent = 0,
                 SampleRate = 8000,
@@ -174,12 +174,12 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
                 Bitrate = 30,
                 Channels = 2,
                 Complexity = 0,
                 ConstrainedVBR = false,
-                ForceMode = Concentus.Enums.OpusMode.MODE_SILK_ONLY,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_SILK_ONLY,
                 FrameSize = 20,
                 PacketLossPercent = 20,
                 SampleRate = 48000,
@@ -193,12 +193,12 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
                 Bitrate = -1,
                 Channels = 2,
                 Complexity = 0,
                 ConstrainedVBR = false,
-                ForceMode = Concentus.Enums.OpusMode.MODE_AUTO,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_AUTO,
                 FrameSize = 20,
                 PacketLossPercent = 20,
                 SampleRate = 8000,
@@ -212,12 +212,12 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
                 Bitrate = -1,
                 Channels = 2,
                 Complexity = 0,
                 ConstrainedVBR = false,
-                ForceMode = Concentus.Enums.OpusMode.MODE_CELT_ONLY,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_CELT_ONLY,
                 FrameSize = 10,
                 PacketLossPercent = 20,
                 SampleRate = 48000,
@@ -232,12 +232,12 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
                 Bitrate = 20,
                 Channels = 1,
                 Complexity = 0,
                 ConstrainedVBR = false,
-                ForceMode = Concentus.Enums.OpusMode.MODE_AUTO,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_AUTO,
                 FrameSize = 60,
                 PacketLossPercent = 0,
                 SampleRate = 48000,
@@ -253,12 +253,12 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_VOIP,
                 Bitrate = 16,
                 Channels = 1,
                 Complexity = 0,
                 ConstrainedVBR = false,
-                ForceMode = Concentus.Enums.OpusMode.MODE_CELT_ONLY,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_CELT_ONLY,
                 FrameSize = 60,
                 PacketLossPercent = 20,
                 SampleRate = 12000,
@@ -272,11 +272,11 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
                 Bitrate = -1,
                 Channels = 1,
                 Complexity = 10,
-                ForceMode = Concentus.Enums.OpusMode.MODE_AUTO,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_AUTO,
                 FrameSize = 20,
                 SampleRate = 48000,
                 DecoderChannels = 2,
@@ -289,11 +289,11 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
                 Bitrate = -1,
                 Channels = 1,
                 Complexity = 10,
-                ForceMode = Concentus.Enums.OpusMode.MODE_AUTO,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_AUTO,
                 FrameSize = 20,
                 SampleRate = 48000,
                 DecoderChannels = 2,
@@ -306,11 +306,11 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
                 Bitrate = -1,
                 Channels = 1,
                 Complexity = 10,
-                ForceMode = Concentus.Enums.OpusMode.MODE_AUTO,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_AUTO,
                 FrameSize = 20,
                 SampleRate = 48000,
                 DecoderChannels = 2,
@@ -323,11 +323,11 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
                 Bitrate = -1,
                 Channels = 2,
                 Complexity = 10,
-                ForceMode = Concentus.Enums.OpusMode.MODE_AUTO,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_AUTO,
                 FrameSize = 20,
                 SampleRate = 48000,
                 DecoderChannels = 1,
@@ -340,11 +340,11 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
                 Bitrate = -1,
                 Channels = 2,
                 Complexity = 10,
-                ForceMode = Concentus.Enums.OpusMode.MODE_AUTO,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_AUTO,
                 FrameSize = 20,
                 SampleRate = 48000,
                 DecoderChannels = 1,
@@ -357,11 +357,11 @@ namespace UnitTests
         {
             RunParityTest(new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
                 Bitrate = -1,
                 Channels = 2,
                 Complexity = 10,
-                ForceMode = Concentus.Enums.OpusMode.MODE_AUTO,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_AUTO,
                 FrameSize = 20,
                 SampleRate = 48000,
                 DecoderChannels = 1,
@@ -531,12 +531,12 @@ namespace UnitTests
         {
             TestParameters encodeParams = new TestParameters()
             {
-                Application = Concentus.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
+                Application = ConcentusUnity.Enums.OpusApplication.OPUS_APPLICATION_AUDIO,
                 Bitrate = 12,
                 Channels = 2,
                 Complexity = 10,
                 ConstrainedVBR = false,
-                ForceMode = Concentus.Enums.OpusMode.MODE_SILK_ONLY,
+                ForceMode = ConcentusUnity.Enums.OpusMode.MODE_SILK_ONLY,
                 FrameSize = 20,
                 PacketLossPercent = 0,
                 SampleRate = 48000,

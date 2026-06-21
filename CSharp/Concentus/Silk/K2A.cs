@@ -30,12 +30,12 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Silk
+namespace ConcentusUnity.Silk
 {
-    using Concentus.Common;
-    using Concentus.Common.CPlusPlus;
-    using Concentus.Silk.Enums;
-    using Concentus.Silk.Structs;
+    using ConcentusUnity.Common;
+    using ConcentusUnity.Common.CPlusPlus;
+    using ConcentusUnity.Silk.Enums;
+    using ConcentusUnity.Silk.Structs;
     using System.Diagnostics;
 
     internal static class K2A

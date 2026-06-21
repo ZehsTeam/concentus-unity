@@ -33,17 +33,17 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Celt.Structs;
-using Concentus.Common;
-using Concentus.Common.CPlusPlus;
-using Concentus;
+using ConcentusUnity.Celt.Structs;
+using ConcentusUnity.Common;
+using ConcentusUnity.Common.CPlusPlus;
+using ConcentusUnity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 
-namespace Concentus.Structs
+namespace ConcentusUnity.Structs
 {
     internal class TonalityAnalysisState
     {

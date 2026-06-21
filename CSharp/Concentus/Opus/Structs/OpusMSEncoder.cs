@@ -33,14 +33,14 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Celt;
-using Concentus.Celt.Structs;
-using Concentus.Common;
-using Concentus.Common.CPlusPlus;
-using Concentus.Enums;
+using ConcentusUnity.Celt;
+using ConcentusUnity.Celt.Structs;
+using ConcentusUnity.Common;
+using ConcentusUnity.Common.CPlusPlus;
+using ConcentusUnity.Enums;
 using System;
 
-namespace Concentus.Structs
+namespace ConcentusUnity.Structs
 {
     /// <summary>
     /// A managed implementation of the Opus multistream encoder.

@@ -33,20 +33,20 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Celt;
-using Concentus.Celt.Structs;
-using Concentus.Common;
-using Concentus.Common.CPlusPlus;
-using Concentus.Enums;
-using Concentus.Silk;
-using Concentus.Silk.Structs;
+using ConcentusUnity.Celt;
+using ConcentusUnity.Celt.Structs;
+using ConcentusUnity.Common;
+using ConcentusUnity.Common.CPlusPlus;
+using ConcentusUnity.Enums;
+using ConcentusUnity.Silk;
+using ConcentusUnity.Silk.Structs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 
-namespace Concentus.Structs
+namespace ConcentusUnity.Structs
 {
     /// <summary>
     /// The Opus decoder structure.

@@ -29,12 +29,12 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Enums;
+using ConcentusUnity.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Concentus
+namespace ConcentusUnity
 {
     /// <summary>
     /// Represents an Opus encoder for a 1- or 2-channel audio stream.

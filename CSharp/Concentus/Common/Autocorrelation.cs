@@ -30,10 +30,10 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Common
+namespace ConcentusUnity.Common
 {
-    using Concentus.Celt;
-    using Concentus.Common.CPlusPlus;
+    using ConcentusUnity.Celt;
+    using ConcentusUnity.Common.CPlusPlus;
     using System;
 
     internal static class Autocorrelation

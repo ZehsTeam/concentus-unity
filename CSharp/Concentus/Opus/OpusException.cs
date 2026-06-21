@@ -29,14 +29,14 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Enums;
+using ConcentusUnity.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 
-namespace Concentus
+namespace ConcentusUnity
 {
     /// <summary>
     /// An exception type which wraps a raw Opus error code.

@@ -30,11 +30,11 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Silk.Structs
+namespace ConcentusUnity.Silk.Structs
 {
-    using Concentus.Common;
-    using Concentus.Common.CPlusPlus;
-    using Concentus.Silk.Enums;
+    using ConcentusUnity.Common;
+    using ConcentusUnity.Common.CPlusPlus;
+    using ConcentusUnity.Silk.Enums;
 
     /// <summary>
     /// Structure containing NLSF codebook

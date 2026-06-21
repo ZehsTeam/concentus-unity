@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
-using Concentus.Common;
-using Concentus.Common.CPlusPlus;
-using Concentus.Structs;
-using Concentus.Enums;
-using Concentus;
+using ConcentusUnity.Common;
+using ConcentusUnity.Common.CPlusPlus;
+using ConcentusUnity.Structs;
+using ConcentusUnity.Enums;
+using ConcentusUnity;
 
-namespace ConcentusDemo
+namespace ConcentusUnityDemo
 {
     public class Program
     {

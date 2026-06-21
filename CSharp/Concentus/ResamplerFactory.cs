@@ -30,13 +30,13 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Common;
-using Concentus.Native;
+using ConcentusUnity.Common;
+using ConcentusUnity.Native;
 using System;
 using System.IO;
 using System.Numerics;
 
-namespace Concentus
+namespace ConcentusUnity
 {
     /// <summary>
     /// Central factory class for creating resamplers.

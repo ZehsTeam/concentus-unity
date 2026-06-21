@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Concentus.Native
+namespace ConcentusUnity.Native
 {
     // https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-target-framework-and-target-platform?view=vs-2022#target-platform
     /// <summary>

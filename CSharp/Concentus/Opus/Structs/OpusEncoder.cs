@@ -33,24 +33,24 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Celt;
-using Concentus.Celt.Structs;
-using Concentus.Common;
-using Concentus.Common.CPlusPlus;
-using Concentus;
-using Concentus.Enums;
-using Concentus.Silk;
-using Concentus.Silk.Structs;
+using ConcentusUnity.Celt;
+using ConcentusUnity.Celt.Structs;
+using ConcentusUnity.Common;
+using ConcentusUnity.Common.CPlusPlus;
+using ConcentusUnity;
+using ConcentusUnity.Enums;
+using ConcentusUnity.Silk;
+using ConcentusUnity.Silk.Structs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 using System.Runtime.CompilerServices;
-using Concentus.Native;
+using ConcentusUnity.Native;
 using System.Runtime.InteropServices;
 
-namespace Concentus.Structs
+namespace ConcentusUnity.Structs
 {
     /// <summary>
     /// The Opus encoder structure

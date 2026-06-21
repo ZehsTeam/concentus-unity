@@ -33,7 +33,7 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Common.CPlusPlus;
+using ConcentusUnity.Common.CPlusPlus;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -41,7 +41,7 @@ using System.Linq;
 using System.Text;
 
 
-namespace Concentus
+namespace ConcentusUnity
 {
     internal static class OpusCompare
     {

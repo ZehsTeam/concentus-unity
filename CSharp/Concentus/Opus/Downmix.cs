@@ -33,16 +33,16 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Celt;
-using Concentus.Common;
-using Concentus.Common.CPlusPlus;
+using ConcentusUnity.Celt;
+using ConcentusUnity.Common;
+using ConcentusUnity.Common.CPlusPlus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 
-namespace Concentus
+namespace ConcentusUnity
 {
     internal static class Downmix
     {

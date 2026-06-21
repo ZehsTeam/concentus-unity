@@ -33,12 +33,12 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Celt.Structs
+namespace ConcentusUnity.Celt.Structs
 {
-    using Concentus.Celt.Enums;
-    using Concentus.Common;
-    using Concentus.Common.CPlusPlus;
-    using Concentus.Enums;
+    using ConcentusUnity.Celt.Enums;
+    using ConcentusUnity.Common;
+    using ConcentusUnity.Common.CPlusPlus;
+    using ConcentusUnity.Enums;
     using System;
 
     internal class CeltEncoder
@@ -287,13 +287,13 @@ namespace Concentus.Celt.Structs
             {
                 int[] pitch_buf = new int[(CeltConstants.COMBFILTER_MAXPERIOD + N) >> 1];
 
-                Concentus.Celt.Pitch.pitch_downsample(pre, pitch_buf, CeltConstants.COMBFILTER_MAXPERIOD + N, CC);
+                ConcentusUnity.Celt.Pitch.pitch_downsample(pre, pitch_buf, CeltConstants.COMBFILTER_MAXPERIOD + N, CC);
                 /* Don't search for the fir last 1.5 octave of the range because
                    there's too many false-positives due to short-term correlation */
-                Concentus.Celt.Pitch.pitch_search(pitch_buf, CeltConstants.COMBFILTER_MAXPERIOD >> 1, pitch_buf, N,
+                ConcentusUnity.Celt.Pitch.pitch_search(pitch_buf, CeltConstants.COMBFILTER_MAXPERIOD >> 1, pitch_buf, N,
                       CeltConstants.COMBFILTER_MAXPERIOD - 3 * CeltConstants.COMBFILTER_MINPERIOD, out pitch_index);
                 pitch_index = CeltConstants.COMBFILTER_MAXPERIOD - pitch_index;
-                gain1 = Concentus.Celt.Pitch.remove_doubling(pitch_buf, CeltConstants.COMBFILTER_MAXPERIOD, CeltConstants.COMBFILTER_MINPERIOD,
+                gain1 = ConcentusUnity.Celt.Pitch.remove_doubling(pitch_buf, CeltConstants.COMBFILTER_MAXPERIOD, CeltConstants.COMBFILTER_MINPERIOD,
                       N, ref pitch_index, this.prefilter_period, this.prefilter_gain);
                 if (pitch_index > CeltConstants.COMBFILTER_MAXPERIOD - 2)
                     pitch_index = CeltConstants.COMBFILTER_MAXPERIOD - 2;

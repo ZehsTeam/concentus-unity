@@ -33,7 +33,7 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Celt
+namespace ConcentusUnity.Celt
 {
     internal static class CeltConstants
     {

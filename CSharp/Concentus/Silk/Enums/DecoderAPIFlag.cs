@@ -30,7 +30,7 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Silk.Enums
+namespace ConcentusUnity.Silk.Enums
 {
     internal static class DecoderAPIFlag
     {

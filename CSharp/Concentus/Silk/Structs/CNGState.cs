@@ -30,9 +30,9 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Silk.Structs
+namespace ConcentusUnity.Silk.Structs
 {
-    using Concentus.Common.CPlusPlus;
+    using ConcentusUnity.Common.CPlusPlus;
 
     /// <summary>
     /// Struct for CNG

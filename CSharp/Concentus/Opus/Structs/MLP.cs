@@ -31,14 +31,14 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Common.CPlusPlus;
+using ConcentusUnity.Common.CPlusPlus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 
-namespace Concentus.Structs
+namespace ConcentusUnity.Structs
 {
     /// <summary>
     /// state object for multi-layer perceptron

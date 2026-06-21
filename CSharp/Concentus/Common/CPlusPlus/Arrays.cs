@@ -29,7 +29,7 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Common.CPlusPlus
+namespace ConcentusUnity.Common.CPlusPlus
 {
     using System;
 

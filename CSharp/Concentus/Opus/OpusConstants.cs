@@ -39,7 +39,7 @@ using System.Linq;
 using System.Text;
 
 
-namespace Concentus
+namespace ConcentusUnity
 {
     internal static class OpusConstants
     {

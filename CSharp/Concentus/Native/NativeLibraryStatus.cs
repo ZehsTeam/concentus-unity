@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Concentus.Native
+namespace ConcentusUnity.Native
 {
     /// <summary>
     /// Represents the status of loading a native library.

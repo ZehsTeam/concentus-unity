@@ -29,11 +29,11 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Enums;
-using Concentus.Structs;
+using ConcentusUnity.Enums;
+using ConcentusUnity.Structs;
 using System;
 
-namespace Concentus
+namespace ConcentusUnity
 {
     /// <summary>
     /// The Opus multistream encoder structure.

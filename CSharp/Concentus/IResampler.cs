@@ -31,7 +31,7 @@
 
 using System;
 
-namespace Concentus
+namespace ConcentusUnity
 {
     /// <summary>
     /// Represents an audio resampler which can process single-channel or interleaved-channel inputs

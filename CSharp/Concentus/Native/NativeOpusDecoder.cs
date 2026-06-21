@@ -1,9 +1,9 @@
-﻿using Concentus.Enums;
+﻿using ConcentusUnity.Enums;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace Concentus.Native
+namespace ConcentusUnity.Native
 {
 #if !NETSTANDARD1_1 && !NET8_0_OR_GREATER
     // SafeHandle flavor of the decoder

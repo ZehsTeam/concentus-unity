@@ -30,16 +30,16 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Enums;
-using Concentus.Native;
-using Concentus.Structs;
+using ConcentusUnity.Enums;
+using ConcentusUnity.Native;
+using ConcentusUnity.Structs;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
 
-namespace Concentus
+namespace ConcentusUnity
 {
     /// <summary>
     /// Central factory class for creating Opus encoder / decoder structs.

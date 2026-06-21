@@ -58,12 +58,12 @@
    The latter both reduces CPU time and makes the algorithm more SIMD-friendly.
 */
 
-using Concentus.Common;
-using Concentus;
+using ConcentusUnity.Common;
+using ConcentusUnity;
 using System;
 using System.Numerics;
 
-namespace Concentus.Common
+namespace ConcentusUnity.Common
 {
     /// <summary>
     /// Arbitrary-rate audio resampler originally implemented for the Speex codec.

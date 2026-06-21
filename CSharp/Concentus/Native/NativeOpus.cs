@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Concentus.Native
+namespace ConcentusUnity.Native
 {
     internal partial class NativeOpus
     {

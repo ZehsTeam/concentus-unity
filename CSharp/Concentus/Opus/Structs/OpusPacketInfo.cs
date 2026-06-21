@@ -33,16 +33,16 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-using Concentus.Common;
-using Concentus.Common.CPlusPlus;
-using Concentus.Enums;
+using ConcentusUnity.Common;
+using ConcentusUnity.Common.CPlusPlus;
+using ConcentusUnity.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 
-namespace Concentus.Structs
+namespace ConcentusUnity.Structs
 {
     /// <summary>
     /// Contains the parsed information from a single Opus packet, such as the bandwidth,

@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Concentus.Native
+namespace ConcentusUnity.Native
 {
     /// <summary>
     /// Global helpers for handling platform and OS-specific tasks regarding native P/Invoke libraries

@@ -33,12 +33,12 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Celt.Structs
+namespace ConcentusUnity.Celt.Structs
 {
-    using Concentus.Celt.Enums;
-    using Concentus.Common;
-    using Concentus.Common.CPlusPlus;
-    using Concentus.Enums;
+    using ConcentusUnity.Celt.Enums;
+    using ConcentusUnity.Common;
+    using ConcentusUnity.Common.CPlusPlus;
+    using ConcentusUnity.Enums;
     using System;
 
     internal class CeltMode

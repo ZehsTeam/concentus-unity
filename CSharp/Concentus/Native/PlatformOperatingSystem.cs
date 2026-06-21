@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Concentus.Native
+namespace ConcentusUnity.Native
 {
     // https://learn.microsoft.com/en-us/dotnet/core/rid-catalog
     /// <summary>

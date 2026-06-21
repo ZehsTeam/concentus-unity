@@ -38,12 +38,12 @@
 
 #if !UNSAFE
 
-namespace Concentus.Celt
+namespace ConcentusUnity.Celt
 {
-    using Concentus.Celt.Enums;
-    using Concentus.Celt.Structs;
-    using Concentus.Common;
-    using Concentus.Common.CPlusPlus;
+    using ConcentusUnity.Celt.Enums;
+    using ConcentusUnity.Celt.Structs;
+    using ConcentusUnity.Common;
+    using ConcentusUnity.Common.CPlusPlus;
     using System;
     using System.Diagnostics;
     using System.Threading;

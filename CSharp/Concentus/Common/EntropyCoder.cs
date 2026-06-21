@@ -30,10 +30,10 @@
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-namespace Concentus.Common
+namespace ConcentusUnity.Common
 {
-    using Concentus.Common;
-    using Concentus.Common.CPlusPlus;
+    using ConcentusUnity.Common;
+    using ConcentusUnity.Common.CPlusPlus;
     using System;
     using System.Diagnostics;
     
