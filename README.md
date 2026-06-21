@@ -1,25 +1,23 @@
-# Concentus: Opus for Everyone
+# Concentus-Unity: Opus for Unity C#
 
-This project is an effort to port the Opus reference library to work natively in other languages, and to gather together any such ports that may exist. With this code, developers should be left with no excuse to use an inferior codec, regardless of their language or runtime environment.
+This project is a fork of [Concentus](https://github.com/lostromb/concentus) v2.2.2, retargeted to compile against **.NET Standard 2.1**, fixing a `Span<T>` runtime incompatibility on Unity's modern Mono/CLR.
 
-[NuGet Package](https://www.nuget.org/packages/Concentus)     
+Concentus-Unity is an independent, unofficial fork. It is not affiliated with or endorsed by the original Concentus maintainers or by Unity Technologies; "Unity" in the name refers to compatibility with the Unity engine runtime.
 
-[Related OggOpus Library](https://github.com/lostromb/concentus.oggfile)
+This is a minimal retargeting fork, with no functional or API changes beyond what was required to compile under .NET Standard 2.1. Namespaces have been renamed from `Concentus` to `ConcentusUnity` to avoid assembly/namespace collisions when both the original Concentus and this fork are present in the same process.
 
-## Project Status
+## Why this fork exists
 
-This repo contains completely functional Opus implementations in portable C#, Java, and Go. They are based on libopus master 1.1.2 configured with FIXED_POINT and with an extra switch to enable/disable the floating-point analysis functions. Both the encoder and decoder paths have been thoroughly tested to be bit-exact with their equivalent C functions in all common use cases. I have also included a port of the libspeexdsp resampler for general use.
+If you've hit `MissingMethodException` referencing a `Span<T>`-based method when using Concentus in Unity, this is why.
 
-Performance-wise, the current build runs about 40-50% as fast as its equivalent libopus build, mostly because of managed array overhead and the vector instructions not porting over. I do not believe performance will get much better than this without a complete rewrite; if you need blazing-fast performance then I encourage you to try the P/Opus or JNI library. The API surface is finalized and existing code should not change, but I may add helper classes in the future.
+The original Concentus targets .NET Standard 2.0, which has no native `Span<T>` support, so it relies on the `System.Memory` NuGet polyfill package instead. On runtimes that supply `Span<T>` natively (such as Unity's modern Mono/CLR), this causes a type-identity mismatch between the polyfilled `Span<T>` Concentus was compiled against and the native `Span<T>` actually present at runtime, resulting in a `MissingMethodException` for any `Span`-based method, even though the method clearly exists in the assembly's metadata.
 
-No further ports are planned at this time, but pull requests are welcome from any contributors.
+Retargeting to .NET Standard 2.1 resolves this: `Span<T>` is supplied natively by the runtime with no polyfill involved, so the type identity matches consumers running on modern .NET/Mono runtimes.
 
-## Performance
+## Project status
 
-For those interested in the expected real-world performance of the library, I ran some quick C# benchmarks on a Raspberry Pi 1 (700mhz ARM) at various modes:  
+This fork inherits its Opus implementation directly from Concentus v2.2.2, which itself is based on libopus master 1.1.2 (FIXED_POINT, with optional floating-point analysis) and includes a port of the libspeexdsp resampler. See the [original Concentus repository](https://github.com/lostromb/concentus) for details on the upstream implementation, testing methodology, and performance characteristics. None of that work has been redone or re-verified independently for this fork; only the target framework and namespaces have changed.
 
-0.82x realtime - 48Khz Voice, Stereo, 32Kbps  (SILK), Compexity 0   
-0.98x realtime - 48Khz Music, Stereo, 128Kbps (CELT), Compexity 10   
-1.55x realtime - 16Khz Voice, Mono  , 32Kbps  (SILK), Compexity 0   
-1.70x realtime - 48Khz Music, Stereo, 96Kbps  (CELT), Compexity 0   
-3.59x realtime - 16Khz Music, Mono  , 96Kbps  (CELT), Compexity 0   
+## License
+
+This project is licensed under the same BSD-style license as the original Concentus project. See [LICENSE](./LICENSE) for the full text and original copyright holders.
